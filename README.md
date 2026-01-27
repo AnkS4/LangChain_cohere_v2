@@ -5,7 +5,7 @@ A collection of LangChain implementations using cohere's language models for nat
 
 ## 🛠️ Prerequisites
 
-- Python (3.11 to 3.13 (inclusive))
+- Python (3.12 to 3.13 (inclusive))
 - [uv](https://github.com/astral-sh/uv) package manager (required for dependency management)
 - [Cohere API Key](https://dashboard.cohere.com/api-keys) & [LangSmith API Key](https://smith.langchain.com/) (required, set in `.env`)
 - `make` (usually pre-installed on Unix-like systems)
@@ -40,10 +40,10 @@ A collection of LangChain implementations using cohere's language models for nat
     make run SCRIPT=filename.py
     ```
 
-    Ex. For l1.py
+    Ex. For 1.1.py
     ```bash
-    make run SCRIPT=l1.py
-    $ Question [List top 10 artists with highest tracks]: Enter to use default query or ask any relevant query
+    make run SCRIPT=1.1.py
+    $ Question [Which planet in the solar system has the most moons]: Enter to use default query or ask any relevant query
     ```
 
 ## 📂 Project Structure
